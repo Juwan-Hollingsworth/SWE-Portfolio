@@ -15,7 +15,7 @@ const Main__Nav = () => {
             offset={-100}
             duration={500}
           >
-            Section 1
+            <div className="dot"></div>
           </Link>
         </li>
         <li>
@@ -27,7 +27,7 @@ const Main__Nav = () => {
             offset={-100}
             duration={500}
           >
-            Section 2
+            <div className="dot"></div>
           </Link>
         </li>
         <li>
@@ -39,7 +39,7 @@ const Main__Nav = () => {
             offset={-100}
             duration={500}
           >
-            Section 3
+            <div className="dot"></div>
           </Link>
         </li>
         <li>
@@ -51,7 +51,7 @@ const Main__Nav = () => {
             offset={-100}
             duration={500}
           >
-            Section 4
+            <div className="dot"></div>
           </Link>
         </li>
       </ul>
