@@ -1,7 +1,8 @@
-.main_sec_4 {
-  background-color: #d8b81f;
+.contact_main {
+  background-color: #152238;
   width: 100vw;
   min-height: 100vh;
+  color: white;
 
   /* margin-bottom: 100px; */
 }
