@@ -3,4 +3,44 @@
   width: 100vw;
   min-height: 100vh;
   color: white;
+  padding: 50px;
+}
+
+/* portfolio menu*/
+/*---------------------------*/
+.category_divider {
+  width: 50%;
+}
+
+/* portfolio gallery */
+/*---------------------------*/
+.gallery_container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  position: relative;
+  width: 30%;
+  height: 450px;
+  margin: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.card:hover img {
+  transform: scale(1.1); /* zoom in effect when img is hovered */
 }

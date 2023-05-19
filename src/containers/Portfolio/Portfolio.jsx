@@ -30,7 +30,7 @@ function Portfolio() {
         <input type="radio" id="other" name="color" />
         <label for="other">#️⃣Other Projects</label>
       </div>
-      <hr className="category__divider" />
+      <hr className="category_divider" />
       <div className="subcatagory__container">
         <input type="radio" id="all" name="color" />
         <label for="all">#️⃣Javascript</label>
@@ -56,7 +56,7 @@ function Portfolio() {
         <input type="radio" id="other" name="color" />
         <label for="other">#️⃣API Development</label>
       </div>
-      <div className="card__container">
+      <div className="gallery_container">
         <div className="card web">
           <img src={login}></img>
         </div>
