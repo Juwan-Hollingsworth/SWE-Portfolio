@@ -3,6 +3,7 @@ import "./portfolio.css";
 import login from "../../assets/login.png";
 import spark from "../../assets/spark.png";
 import gpt3 from "../../assets/gpt3.png";
+import { Link as AnchorLink } from "react-scroll";
 
 function Portfolio() {
   return (
@@ -84,6 +85,19 @@ function Portfolio() {
         <div className="card other">
           <img src={spark}></img>
         </div>
+      </div>
+      <div>
+        {" "}
+        <AnchorLink
+          activeClass="active"
+          to="resume"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+        >
+          <h1>Anchor Nav link Here</h1>
+        </AnchorLink>
       </div>
     </div>
   );

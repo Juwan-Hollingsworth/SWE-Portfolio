@@ -2,6 +2,7 @@ import React from "react";
 import "./home.css";
 import heroimg from "../../assets/heroimg.png";
 import Navbar from "../../components/Navbar/Navbar";
+import { Link as AnchorLink } from "react-scroll";
 
 function Home() {
   return (
@@ -32,7 +33,16 @@ function Home() {
           </div>
         </div>
       </div>
-      <h1>Anchor Nav Here</h1>
+      <AnchorLink
+        activeClass="active"
+        to="about"
+        spy={true}
+        smooth={true}
+        offset={-100}
+        duration={500}
+      >
+        <h1>Anchor Nav link Here</h1>
+      </AnchorLink>
     </div>
   );
 }

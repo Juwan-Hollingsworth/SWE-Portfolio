@@ -4,6 +4,7 @@ import headshot from "../../assets/headshot.jpg";
 import li from "../../assets/linkedIn.png";
 import gh from "../../assets/github.png";
 import fb from "../../assets/facebook.png";
+import { Link as AnchorLink } from "react-scroll";
 function About() {
   return (
     <div className="about_main">
@@ -55,7 +56,23 @@ function About() {
           </div>
         </div>
       </div>
-      <button id="cta_btn">Get In Touch 📩</button>
+      <div>
+        {" "}
+        <button id="cta_btn">Get In Touch 📩</button>
+      </div>
+      <div>
+        {" "}
+        <AnchorLink
+          activeClass="active"
+          to="portfolio"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+        >
+          <h1>Anchor Nav link Here</h1>
+        </AnchorLink>
+      </div>
     </div>
   );
 }

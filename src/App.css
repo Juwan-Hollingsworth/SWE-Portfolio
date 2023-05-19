@@ -6,5 +6,4 @@
 .App > div {
   width: 100vw;
   min-height: 100vh;
-  /*give space between app for title or logo*/
 }

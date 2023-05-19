@@ -4,19 +4,19 @@ import { Home, About, Contact, Portfolio, Resume } from "./containers";
 function App() {
   return (
     <div className="App">
-      <div id="section1">
+      <div id="home">
         <Home />
       </div>
-      <div id="section2">
+      <div id="about">
         <About />
       </div>
-      <div id="section3">
+      <div id="portfolio">
         <Portfolio />
       </div>
-      <div id="section4">
+      <div id="resume">
         <Resume />
       </div>
-      <div id="section5">
+      <div id="contact">
         <Contact />
       </div>
     </div>

@@ -3,7 +3,7 @@
   padding: 14px 16px;
   /* background-color: #d0d0cd; */
 }
-ul {
+.nav_ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -14,7 +14,7 @@ li {
   float: right;
 }
 
-li a {
+.nav_li a {
   display: inline-block;
   width: 150px;
   padding: 12px;

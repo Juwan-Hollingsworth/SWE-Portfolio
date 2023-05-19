@@ -1,5 +1,6 @@
 import React from "react";
 import "./resume.css";
+import { Link as AnchorLink } from "react-scroll";
 
 function Resume() {
   return (
@@ -102,6 +103,19 @@ function Resume() {
             </div>
           </div>
         </div>
+      </div>
+      <div>
+        {" "}
+        <AnchorLink
+          activeClass="active"
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+        >
+          <h1>Anchor Nav link Here</h1>
+        </AnchorLink>
       </div>
     </div>
   );

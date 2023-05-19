@@ -9,16 +9,16 @@ function Navbar() {
   return (
     <div className="navbar">
       {/* <img className="logo" src={logo} /> */}
-      <ul className="navlist">
-        <li>
+      <ul className="nav_ul">
+        <li className="nav_li">
           <div class="menu__container" onClick={(e) => myFunction(e.target)}>
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
           </div>
         </li>
-        <li>
-          <a classname="resume__btn" href="contact.asp">
+        <li className="nav_li">
+          <a classname="resume_btn" href="contact.asp">
             Resume
           </a>
         </li>

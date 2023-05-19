@@ -1,5 +1,6 @@
 import React from "react";
 import "./contact.css";
+import { Link as AnchorLink } from "react-scroll";
 
 function Contact() {
   return (
@@ -9,6 +10,19 @@ function Contact() {
       <button className="ghostBtn_contact">LinkedIn 👨🏾‍💻</button>
       <button className="ghostBtn_contact">Github 👾</button>
       <button className="ghostBtn_contact">Spark ⚡️</button>
+      <div>
+        {" "}
+        <AnchorLink
+          activeClass="active"
+          to="home"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+        >
+          <h1>Anchor Nav link Here</h1>
+        </AnchorLink>
+      </div>
     </div>
   );
 }
