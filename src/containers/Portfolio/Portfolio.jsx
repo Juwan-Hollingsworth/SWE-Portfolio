@@ -1,7 +1,7 @@
 import React from "react";
-import "./section__3.css";
+import "./portfolio.css";
 
-function Section__3() {
+function Portfolio() {
   return (
     <div className="main_sec_3">
       <h1>Section 1</h1>
@@ -9,4 +9,4 @@ function Section__3() {
   );
 }
 
-export default Section__3;
+export default Portfolio;

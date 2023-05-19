@@ -1,22 +1,23 @@
 import "./App.css";
-import Header from "./Main__Nav";
-import { Section__1, Section__2, Section__3, Section__4 } from "./Sections";
+import { Home, About, Contact, Portfolio, Resume } from "./containers";
 
 function App() {
   return (
     <div className="App">
-      <Header />
       <div id="section1">
-        <Section__1 />
+        <Home />
       </div>
       <div id="section2">
-        <Section__2 />
+        <About />
       </div>
       <div id="section3">
-        <Section__3 />
+        <Portfolio />
       </div>
       <div id="section4">
-        <Section__4 />
+        <Resume />
+      </div>
+      <div id="section5">
+        <Contact />
       </div>
     </div>
   );

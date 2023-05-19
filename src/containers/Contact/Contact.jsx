@@ -1,7 +1,7 @@
 import React from "react";
-import "./section__4.css";
+import "./contact.css";
 
-function Section__4() {
+function Contact() {
   return (
     <div className="main_sec_4">
       <h1>Section 4</h1>
@@ -9,4 +9,4 @@ function Section__4() {
   );
 }
 
-export default Section__4;
+export default Contact;
