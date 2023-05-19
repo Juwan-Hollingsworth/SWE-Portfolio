@@ -1,6 +1,6 @@
 import "./App.css";
 import Header from "./Main__Nav";
-import { Section__1, Section__2 } from "./Sections";
+import { Section__1, Section__2, Section__3, Section__4 } from "./Sections";
 
 function App() {
   return (
@@ -13,10 +13,10 @@ function App() {
         <Section__2 />
       </div>
       <div id="section3">
-        <h1>Section 3</h1>
+        <Section__3 />
       </div>
       <div id="section4">
-        <h1>Section 4</h1>
+        <Section__4 />
       </div>
     </div>
   );
