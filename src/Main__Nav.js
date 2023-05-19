@@ -1,3 +1,4 @@
+import React from "react";
 import "./main__nav.css";
 import { Link } from "react-scroll";
 
