@@ -52,10 +52,10 @@ function About() {
               If you're looking for a dedicated and innovative software
               engineer, I'd love to connect and see how we can work together!
             </p>
-            <button id="cta_btn">Get In Touch 📩</button>
           </div>
         </div>
       </div>
+      <button id="cta_btn">Get In Touch 📩</button>
     </div>
   );
 }

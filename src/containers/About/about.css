@@ -2,6 +2,98 @@
   background-color: #d8b81f;
   width: 100vw;
   min-height: 100vh;
+}
 
-  /* margin-bottom: 100px; */
+.about_row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.about_col {
+  flex-basis: 48%; /* Adjust the width as needed */
+  margin-bottom: 20px;
+}
+
+[class^="about_col"] {
+  flex: 1;
+  margin: 10px;
+}
+
+/*--- Style left */
+[class="about_col 1"] {
+  padding-left: 50px;
+  float: left;
+  width: 40%;
+  margin-left: 10px;
+  margin-top: -300px;
+}
+.about_name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.about_name h2 {
+  justify-content: center; /* centers the child element horizontally */
+  align-items: center;
+
+  text-align: center; /* center text within the container */
+  color: white;
+}
+
+.mediaIcons {
+  width: 50px;
+  height: 50px;
+  padding-left: 10px;
+}
+.about_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/*style headshot img*/
+.about_headshot {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 50%;
+  border: 6px solid white;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+/*--- Style Right */
+[class="about_col 2"] {
+  width: 60%;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  /* padding-right: 100px; */
+  color: white;
+}
+
+[class="about_col 2"] ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* padding-left: 0; */
+}
+
+[class="about_col 2"] li {
+  width: 45%;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+#cta_btn {
+  color: white;
+  border: 3px solid white;
+  background-color: transparent;
+  border-radius: 10px; /* add border radius to make the corners rounded */
+  padding: 10px 50px;
+  margin: 15px;
+  font-size: 50px;
+  transition: all 0.3s ease; /* add transition effect to hover state */
 }
