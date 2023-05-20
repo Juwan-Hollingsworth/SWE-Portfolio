@@ -2,5 +2,96 @@
   background-color: #d8b81f;
   width: 100vw;
   min-height: 100vh;
-  color: white;
+  color: black;
+  padding: 20px;
+}
+
+.resume_container {
+  width: 75%;
+  height: 1400px;
+  background-color: rgb(253, 252, 250);
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* to add drop shadow */
+  /* margin-top: 80px; */
+  padding: 40px;
+  /* add margin-top */
+}
+
+[class="resume_col L"] {
+  float: left;
+  width: 50%;
+}
+
+[class="resume_col R"] {
+  float: right;
+  width: 50%;
+}
+
+.resume_body {
+  font-size: 14px;
+}
+
+.labelr {
+  flex: 1;
+  text-align: left;
+  width: 70%;
+  font-weight: bolder;
+}
+
+.link {
+  flex: 1;
+  /* text-align: right; */
+  width: 50%;
+}
+
+.objective {
+  flex: 1;
+  /* text-align: right; */
+  width: 80%;
+  padding: 10px;
+}
+
+.education {
+  padding: 10px;
+}
+.coursework {
+  padding: 10px;
+}
+.projects {
+  padding: 10px;
+}
+.certs {
+  padding: 10px;
+}
+.workHistory {
+  padding: 10px;
+}
+.technicalSkills {
+  padding: 10px;
+}
+
+.linkr {
+  padding-bottom: 30px;
+}
+.objectiver {
+  padding-bottom: 160px;
+}
+.educationr {
+  padding-bottom: 40px;
+}
+.courseworkr {
+  padding-bottom: 125px;
+}
+.projectsr {
+  padding-bottom: 165px;
+}
+.certsr {
+  padding-bottom: 20px;
+}
+.workhistoryr {
+  padding-bottom: 455px;
+}
+
+.technicalSkills {
+  padding-bottom: 125px;
 }
