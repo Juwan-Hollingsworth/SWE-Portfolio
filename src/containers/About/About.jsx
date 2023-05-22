@@ -9,7 +9,7 @@ import arrow from "../../assets/arrow.png";
 function About() {
   return (
     <div className="about_main">
-      <h2 className="about_title">About Me</h2>
+      <h2 className="about_title">01. About Me</h2>
       <div className="about_row">
         <div className="about_col 1">
           <img className="about_headshot" src={headshot} />
@@ -24,7 +24,6 @@ function About() {
         </div>
         <div className="about_col 2">
           <div className="about_statement">
-            <h2 className="about_statement title">01. About Me</h2>
             <p className="about_statement paragraph">
               Hi there, nice to meet you! I'm Juwan, a software engineer and
               college graduate with a bachelors in Computer Science. I'm

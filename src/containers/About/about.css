@@ -3,6 +3,7 @@
   width: 100vw;
   min-height: 100vh;
   padding: 20px;
+  color: white;
 }
 .about_row {
   display: flex;
@@ -11,14 +12,15 @@
 }
 
 .about_col {
-  flex-basis: 48%;
+  flex-basis: 40%;
   margin-bottom: 20px;
+  margin-right: 10%;
 }
 
 .about_col_1 {
   padding-left: 50px;
   float: left;
-  width: 40%;
+  width: 30%;
   margin-left: 10px;
   margin-top: -300px;
 }
@@ -77,4 +79,7 @@
   margin: 15px;
   font-size: 50px;
   transition: all 0.3s ease;
+}
+.about_statement {
+  padding: 5px; /*adjust text size*/
 }
