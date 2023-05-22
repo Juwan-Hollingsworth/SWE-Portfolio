@@ -52,7 +52,10 @@ div.home_col[class="2"] {
 /* flipping flipping_words  */
 .flipping_words {
   display: inline-block;
-  margin-right: -30px;
+  /* margin-right: 30px; */
+  position: relative;
+  margin-bottom: 15px;
+  /* margin-left: -50px; */
 }
 .flipping_words span {
   position: absolute;
@@ -95,13 +98,18 @@ div.home_col[class="2"] {
     opacity: 0;
     transform: translateY(50px);
   }
-  100% {
+  50% {
     opacity: 0;
     transform: translateY(50px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-50px);
   }
 }
 
 .home_static_h2 {
   display: inline-block;
-  margin-left: 220px;
+  margin-left: 100px;
+  /* vertical-align: middle; */
 }
