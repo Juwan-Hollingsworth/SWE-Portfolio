@@ -5,6 +5,7 @@ import li from "../../assets/linkedIn.png";
 import gh from "../../assets/github.png";
 import fb from "../../assets/facebook.png";
 import { Link as AnchorLink } from "react-scroll";
+import arrow from "../../assets/arrow.png";
 function About() {
   return (
     <div className="about_main">
@@ -70,7 +71,7 @@ function About() {
           offset={-100}
           duration={500}
         >
-          <h1>Anchor Nav link Here</h1>
+          <img className="arrow" src={arrow} />
         </AnchorLink>
       </div>
     </div>

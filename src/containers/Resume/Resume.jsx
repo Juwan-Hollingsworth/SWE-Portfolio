@@ -1,6 +1,7 @@
 import React from "react";
 import "./resume.css";
 import { Link as AnchorLink } from "react-scroll";
+import arrow from "../../assets/arrow.png";
 
 function Resume() {
   return (
@@ -114,7 +115,7 @@ function Resume() {
           offset={-100}
           duration={500}
         >
-          <h1>Anchor Nav link Here</h1>
+          <img className="arrow" src={arrow} />
         </AnchorLink>
       </div>
     </div>
