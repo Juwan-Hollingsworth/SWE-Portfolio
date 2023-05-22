@@ -1,6 +1,7 @@
 import React from "react";
 import "./contact.css";
 import { Link as AnchorLink } from "react-scroll";
+import arrow from "../../assets/arrow.png";
 
 function Contact() {
   return (
@@ -10,7 +11,7 @@ function Contact() {
       <button className="ghostBtn_contact">LinkedIn 👨🏾‍💻</button>
       <button className="ghostBtn_contact">Github 👾</button>
       <button className="ghostBtn_contact">Spark ⚡️</button>
-      <div>
+      <div className="contact_arrow">
         {" "}
         <AnchorLink
           activeClass="active"
@@ -20,7 +21,7 @@ function Contact() {
           offset={-100}
           duration={500}
         >
-          <h1>Anchor Nav link Here</h1>
+          <img className="arrow" src={arrow} />
         </AnchorLink>
       </div>
     </div>

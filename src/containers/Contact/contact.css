@@ -10,6 +10,7 @@
   align-items: center;
   background-color: #152238;
   position: relative; /* add position to allow absolute positioning of h1 element */
+  padding: 40px;
 }
 .contact_title {
   position: absolute;
@@ -36,4 +37,8 @@
   background-color: white;
   color: #152238;
   cursor: pointer;
+}
+
+.contact_arrow {
+  transform: rotate(180deg);
 }
