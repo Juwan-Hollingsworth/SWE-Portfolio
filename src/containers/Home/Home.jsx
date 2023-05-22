@@ -3,6 +3,7 @@ import "./home.css";
 import heroimg from "../../assets/heroimg.png";
 import Navbar from "../../components/Navbar/Navbar";
 import { Link as AnchorLink } from "react-scroll";
+import arrow from "../../assets/arrow.png";
 
 function Home() {
   return (
@@ -41,7 +42,7 @@ function Home() {
         offset={-100}
         duration={500}
       >
-        <h1>Anchor Nav link Here</h1>
+        <img className="arrow" src={arrow} />
       </AnchorLink>
     </div>
   );
