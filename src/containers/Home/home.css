@@ -29,7 +29,8 @@ div.home_col[class="2"] {
 
 .arrow {
   max-width: 12%;
-  padding-top: 100px;
+  padding-top: 80px;
+  padding-bottom: 30px;
   cursor: pointer;
   animation-name: pulsate;
   animation-duration: 5s; /*change speed of animation */
