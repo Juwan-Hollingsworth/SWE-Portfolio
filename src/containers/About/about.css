@@ -8,21 +8,17 @@
 .about_row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .about_col {
-  flex-basis: 40%;
+  flex-basis: 45%;
   margin-bottom: 20px;
-  margin-right: 10%;
+  /* margin-right: 10%; */
 }
 
-.about_col_1 {
-  padding-left: 50px;
-  float: left;
-  width: 30%;
-  margin-left: 10px;
-  margin-top: -300px;
+.profile_col {
+  float: right;
+  margin-right: 50px; /*adjust horizontally*/
 }
 
 .about_name h2 {
@@ -82,4 +78,39 @@
 }
 .about_statement {
   padding: 5px; /*adjust text size*/
+  width: 40rem;
+}
+
+#about_lists {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#about_lists li {
+  flex-basis: 50%;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 25px;
+}
+
+#about_lists li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  /* background-image: url("path/to/arrow.png"); */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: blue;
+}
+
+@media (max-width: 480px) {
+  #about_lists li {
+    flex-basis: 100%;
+  }
 }
