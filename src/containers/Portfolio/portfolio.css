@@ -58,3 +58,7 @@
 .card:hover img {
   transform: scale(1.1); /* zoom in effect when img is hovered */
 }
+
+.port_arrow {
+  padding-top: 30px;
+}

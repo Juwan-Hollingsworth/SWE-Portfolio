@@ -51,17 +51,19 @@ function Portfolio() {
         </div>
       </div>
       <div>
-        {" "}
-        <AnchorLink
-          activeClass="active"
-          to="resume"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={500}
-        >
-          <img className="arrow" src={arrow} />
-        </AnchorLink>
+        <div className="port_arrow">
+          {" "}
+          <AnchorLink
+            activeClass="active"
+            to="resume"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
+            <img className="arrow" src={arrow} />
+          </AnchorLink>
+        </div>
       </div>
     </div>
   );
