@@ -11,53 +11,16 @@ function Portfolio() {
     <div className="portfolio_main">
       <h2 className="project__title">02. Portfolio</h2>
       <div className="project_categories">
-        <input type="radio" id="all" name="color" />
-        <label for="all">#️⃣All Projects</label>
-
-        <input type="radio" id="web" name="color" />
-        <label for="web">#️⃣Web Development</label>
-
-        <input type="radio" id="data" name="color" />
-        <label for="data">#️⃣Data Analysis & Visualization</label>
-
-        <input type="radio" id="other" name="color" />
-        <label for="other">#️⃣UX Design</label>
-
-        <input type="radio" id="other" name="color" />
-        <label for="other">#️⃣Artifical Intelligence</label>
-
-        <input type="radio" id="other" name="color" />
-        <label for="other">#️⃣Algorithmic Trading</label>
-
-        <input type="radio" id="other" name="color" />
-        <label for="other">#️⃣Other Projects</label>
+        <label className="menu_options">#️⃣All Projects</label>
+        <label className="menu_options">#️⃣Web Development</label>
+        <label className="menu_options">#️⃣Data Analysis & Visualization</label>
+        <label className="menu_options">#️⃣UX Design</label>
+        <label className="menu_options">#️⃣Artifical Intelligence</label>
+        <label className="menu_options">#️⃣Algorithmic Trading</label>
+        <label className="menu_options">#️⃣Other Projects</label>
       </div>
       <hr className="category_divider" />
-      <div className="subcatagory__container">
-        <input type="radio" id="all" name="color" />
-        <label for="all">#️⃣Javascript</label>
 
-        <input type="radio" id="web" name="color" />
-        <label for="web">#️⃣Java</label>
-
-        <input type="radio" id="data" name="color" />
-        <label for="data">#️⃣C++</label>
-
-        <input type="radio" id="other" name="color" />
-        <label for="other">#️⃣Python</label>
-
-        <input type="radio" id="other" name="color" />
-        <label for="other">#️⃣Html/CSS</label>
-
-        <input type="radio" id="other" name="color" />
-        <label for="other">#️⃣React Development</label>
-
-        <input type="radio" id="other" name="color" />
-        <label for="other">#️⃣Netbeans Development</label>
-
-        <input type="radio" id="other" name="color" />
-        <label for="other">#️⃣API Development</label>
-      </div>
       <div className="gallery_container">
         <div className="card web">
           <img src={login}></img>

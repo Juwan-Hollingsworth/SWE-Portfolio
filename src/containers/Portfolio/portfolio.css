@@ -6,6 +6,19 @@
   padding: 50px;
 }
 
+.project_categories {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  padding-bottom: 25px;
+}
+.project_categories label {
+  margin-right: 10px; /* Adjust the value as needed */
+}
+
+.menu_options {
+  cursor: pointer;
+}
+
 /* portfolio menu*/
 /*---------------------------*/
 .category_divider {
@@ -20,6 +33,7 @@
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  padding-top: 25px;
 }
 
 .card {
