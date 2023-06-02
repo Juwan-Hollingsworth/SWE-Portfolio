@@ -11,8 +11,11 @@ function Contact() {
       <button className="ghostBtn_contact">LinkedIn 👨🏾‍💻</button>
       <button className="ghostBtn_contact">Github 👾</button>
       <button className="ghostBtn_contact">Spark ⚡️</button>
+      <br />
+      <br />
+      <br />
+      <br />
       <div className="contact_arrow">
-        {" "}
         <AnchorLink
           activeClass="active"
           to="home"
@@ -21,7 +24,7 @@ function Contact() {
           offset={-100}
           duration={500}
         >
-          <img className="arrow" src={arrow} />
+          <img id="c_arrow" src={arrow} alt="Arrow" />
         </AnchorLink>
       </div>
     </div>
