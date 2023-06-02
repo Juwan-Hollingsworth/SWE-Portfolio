@@ -14,7 +14,7 @@ function Home() {
       <div className="home_hero">
         <div className="home_row">
           <div className="home_col 1">
-            <h1>Juwan Hollingsworth. </h1>
+            <h1 id="home_title">Juwan Hollingsworth. </h1>
             <br />
             <div class="flipping_words">
               <span className="flipping_w1"> Freelance</span>
@@ -22,7 +22,8 @@ function Home() {
               <span className="flipping_w3">Hobbyist</span>
             </div>
             <span class="home_static_h2">Software Engineer</span> <br />
-            <span>Atlanta, Georgia 📍</span>
+            <br />
+            <span id="location">Atlanta, Georgia 📍</span>
             <br />
           </div>
           <div className="home_col 2">
@@ -32,16 +33,19 @@ function Home() {
           </div>
         </div>
       </div>
-      <AnchorLink
-        activeClass="active"
-        to="about"
-        spy={true}
-        smooth={true}
-        offset={-100}
-        duration={500}
-      >
-        <img className="arrow" src={arrow} />
-      </AnchorLink>
+      <div className="home_arrow">
+        {" "}
+        <AnchorLink
+          activeClass="active"
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+        >
+          <img className="arrow" src={arrow} />
+        </AnchorLink>
+      </div>
     </div>
   );
 }

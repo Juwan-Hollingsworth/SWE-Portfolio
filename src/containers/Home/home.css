@@ -3,6 +3,7 @@
   width: 100vw;
   min-height: 100vh;
   color: white;
+  position: relative;
 }
 .column {
   float: left;
@@ -16,8 +17,8 @@ div.home_col[class="2"] {
   align-items: center;
 }
 .hero_img_container img {
-  width: 50%;
-  height: 50%;
+  max-width: 30%;
+  margin-top: -30px;
 }
 
 .anchor_dot {
@@ -27,13 +28,20 @@ div.home_col[class="2"] {
   background-color: red;
 }
 
+.home_arrow {
+  position: absolute;
+  bottom: 20px; /* Adjust the distance from the bottom as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+}
+
 .arrow {
-  max-width: 12%;
-  padding-top: 80px;
-  padding-bottom: 30px;
+  max-width: 7%;
   cursor: pointer;
   animation-name: pulsate;
-  animation-duration: 5s; /*change speed of animation */
+  animation-duration: 5s;
   animation-timing-function: ease-out;
   animation-iteration-count: infinite;
 }
@@ -53,10 +61,15 @@ div.home_col[class="2"] {
 /* flipping flipping_words  */
 .flipping_words {
   display: inline-block;
-  /* margin-right: 30px; */
   position: relative;
-  margin-bottom: 15px;
-  /* margin-left: -50px; */
+  margin-bottom: 30px;
+  margin-right: 125px;
+  font-family: "Lato", sans-serif;
+
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 200;
+  text-transform: uppercase;
 }
 .flipping_words span {
   position: absolute;
@@ -113,4 +126,26 @@ div.home_col[class="2"] {
   display: inline-block;
   margin-left: 100px;
   /* vertical-align: middle; */
+  margin-bottom: 15px;
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+#home_title {
+  font-family: "Libre Baskerville", serif;
+  font-size: 88px;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+#location {
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 200;
+  text-transform: uppercase;
 }
