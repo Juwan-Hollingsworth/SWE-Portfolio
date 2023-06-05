@@ -132,7 +132,7 @@ function Resume() {
           </div>
         </div>
       </div>
-      <div>
+      <div className="resume_arrow">
         {" "}
         <AnchorLink
           activeClass="active"
