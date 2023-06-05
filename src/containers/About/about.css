@@ -12,9 +12,9 @@
 }
 
 .about_col {
-  flex-basis: 45%;
+  flex: 1;
   margin-bottom: 20px;
-  /* margin-right: 10%; */
+  padding: 10px;
 }
 
 .profile_col {
@@ -96,6 +96,6 @@
 }
 
 #gallery {
-  flex-basis: 10%;
+  /* flex-basis: 10%; */
   /* margin-left: auto; */
 }

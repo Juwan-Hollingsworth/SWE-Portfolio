@@ -57,7 +57,9 @@ function About() {
             </p>
           </div>
         </div>
-        <div className="about_col 3" id="gallery"></div>
+        <div className="about_col 3">
+          <div id="gallery"></div>
+        </div>
       </div>
       <div>
         {" "}
