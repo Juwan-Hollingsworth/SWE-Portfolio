@@ -17,81 +17,22 @@
   /* add margin-top */
 }
 
-[class="resume_col L"] {
-  float: left;
-  width: 50%;
-}
-
-[class="resume_col R"] {
-  float: right;
-  width: 50%;
-}
-
 .resume_body {
   font-size: 14px;
 }
 
-.labelr {
-  flex: 1;
-  text-align: left;
-  width: 70%;
-  font-weight: bolder;
+/* resume content */
+.resume_row {
+  display: flex;
+  padding: 40px;
 }
 
-.link {
-  flex: 1;
-  /* text-align: right; */
-  width: 50%;
+#label {
+  width: 30%;
+  font-weight: bold;
+  padding-right: 10px;
 }
 
-.objective {
-  flex: 1;
-  /* text-align: right; */
-  width: 80%;
-  padding: 10px;
-}
-
-.education {
-  padding: 10px;
-}
-.coursework {
-  padding: 10px;
-}
-.projects {
-  padding: 10px;
-}
-.certs {
-  padding: 10px;
-}
-.workHistory {
-  padding: 10px;
-}
-.technicalSkills {
-  padding: 10px;
-}
-
-.linkr {
-  padding-bottom: 30px;
-}
-.objectiver {
-  padding-bottom: 160px;
-}
-.educationr {
-  padding-bottom: 40px;
-}
-.courseworkr {
-  padding-bottom: 125px;
-}
-.projectsr {
-  padding-bottom: 165px;
-}
-.certsr {
-  padding-bottom: 20px;
-}
-.workhistoryr {
-  padding-bottom: 455px;
-}
-
-.technicalSkills {
-  padding-bottom: 125px;
+#content {
+  width: 60%;
 }

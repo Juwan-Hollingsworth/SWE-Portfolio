@@ -19,21 +19,19 @@ function Resume() {
           <hr />
         </div>
         <div className="resume_body">
-          <div className="resume_col L">
-            <div className="labelr linkr">LINKS:</div>
-            <div className="labelr objectiver">OBJECTIVE:</div>
-            <div className="labelr educationr">EDUCATION:</div>
-            <div className="labelr courseworkr">COURSE-WORK:</div>
-            <div className="labelr projectsr">PROJECTS:</div>
-            <div className="labelr certsr">AWARDS/CERTIFICATIONS:</div>
-            <div className="labelr workhistoryr">WORK HISTORY:</div>
-            <div className="labelr techskillsr">TECHNICAL SKILLS:</div>
+          <div className="resume_row">
+            <div className="link" id="label">
+              LINKS:
+            </div>
+            <div className="link" id="content">
+              linkedin.com
+            </div>
           </div>
-
-          <div className="resume_col R">
-            <div className="link">linkedin.com</div>
-            <br />
-            <div className="objective">
+          <div className="resume_row">
+            <div className="objective" id="label">
+              OBJECTIVE:
+            </div>
+            <div className="objective" id="content">
               Junior Software Engineer dedicated to improving skills through
               hands-on learning and development. Proficient in mobile and
               desktop development environments. Adept in Java, JavaScript,
@@ -42,19 +40,33 @@ function Resume() {
               collaborative. A team player with strong communication and
               analytical abilities.
             </div>
-            <br />
-            <div className="education">
+          </div>
+          <div className="resume_row">
+            <div className="education" id="label">
+              EDUCATION:
+            </div>
+            <div className="education" id="content">
               Clayton State University, Atlanta, GA <br />
               Bachelor of Science: Computer Science
             </div>
-            <div className="coursework">
+          </div>
+          <div className="resume_row">
+            <div className="coursework" id="label">
+              COURSE-WORK:
+            </div>
+            <div className="coursework" id="content">
               • Data Structures and Algorithms <br />
               • Computer Organization and Architecture <br />• Operating Systems{" "}
               <br />• Programming Languages
               <br /> • Theory of Computing <br />• Professional and Technical
               Writing
             </div>
-            <div className="projects">
+          </div>
+          <div className="resume_row">
+            <div className="projects" id="label">
+              PROJECTS:
+            </div>
+            <div className="projects" id="content">
               ACM “Magic Mirror” Project | ACM – Clayton State U. Fall 2022 •
               ACM “Magic Mirror” was a project that came to fruition Fall 2022
               with the help of myself and a fellow ACM colleague. We wrote grant
@@ -65,10 +77,20 @@ function Resume() {
               throughout the project. This project was recently presented and on
               display at the 2022 ACM MSE Conference in Gatlinburg, TN.
             </div>
-            <div className="certs">
+          </div>
+          <div className="resume_row">
+            <div className="certs" id="label">
+              AWARDS/CERTIFICATIONS:
+            </div>
+            <div className="certs" id="content">
               • AWS Certified Cloud Practitioner Completion Date: In Progress
             </div>
-            <div className="workHistory">
+          </div>
+          <div className="resume_row">
+            <div className="work" id="label">
+              WORK HISTORY:
+            </div>
+            <div className="work" id="content">
               Mentorship Program | Intuit Mailchimp – Atlanta, GA Aug 2022 -
               Current • Mailchimp's Launchpad Program helps students adapt to
               technical, social, and business expectations of the 21st century
@@ -96,7 +118,12 @@ function Resume() {
               systems. • Utilized scripting languages, content creation tools,
               management tools, and digital media to design web sites.
             </div>
-            <div className="technicalSkills">
+          </div>
+          <div className="resume_row">
+            <div className="skills" id="label">
+              TECHNICAL SKILLS:
+            </div>
+            <div className="skills" id="content">
               • Programming • Database • Web Design • Operating Systems • Office
               Resources Java, JavaScript, Python, Typescript Skilled in noSQL –
               SQL, PHP HTML, CSS, XML, React Windows OS, Mac OS Microsoft Office
