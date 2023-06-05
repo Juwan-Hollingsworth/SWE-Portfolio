@@ -47,28 +47,9 @@
   position: relative;
 }
 
-.about_col_2 {
-  width: 60%;
-  font-weight: bold;
-  font-size: 20px;
-  color: white;
-}
-
 .about_statement {
   font-family: "Lato", sans-serif;
   font-weight: 700;
-}
-
-.about_col_2 ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.about_col_2 li {
-  width: 45%;
-  list-style: none;
-  margin-bottom: 10px;
 }
 
 #cta_btn {
@@ -114,8 +95,7 @@
   background-color: blue;
 }
 
-@media (max-width: 480px) {
-  #about_lists li {
-    flex-basis: 100%;
-  }
+#gallery {
+  flex-basis: 10%;
+  /* margin-left: auto; */
 }
