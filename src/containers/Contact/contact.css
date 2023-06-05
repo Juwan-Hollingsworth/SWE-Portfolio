@@ -41,8 +41,6 @@
 
 .contact_arrow {
   transform: rotate(180deg);
-}
-
-#c_arrow {
-  width: 70px;
+  width: 100%;
+  /* text-align: center; */
 }

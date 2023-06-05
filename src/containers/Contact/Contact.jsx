@@ -24,7 +24,7 @@ function Contact() {
           offset={-100}
           duration={500}
         >
-          <img id="c_arrow" src={arrow} alt="Arrow" />
+          <img className="arrow" src={arrow} alt="Arrow" />
         </AnchorLink>
       </div>
     </div>
