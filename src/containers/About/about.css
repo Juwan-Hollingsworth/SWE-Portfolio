@@ -9,6 +9,8 @@
   display: flex;
   flex-wrap: wrap;
   margin-top: 100px;
+  justify-content: center; /* center horizontally */
+  padding: 0 125px;
 }
 
 .about_col {

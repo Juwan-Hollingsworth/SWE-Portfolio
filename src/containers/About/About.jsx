@@ -6,6 +6,13 @@ import gh from "../../assets/github.png";
 import fb from "../../assets/facebook.png";
 import { Link as AnchorLink } from "react-scroll";
 import arrow from "../../assets/arrow.png";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
+import image1 from "../../assets/gallery_1.jpg";
+import image2 from "../../assets/gallery_2.jpg";
+import image3 from "../../assets/gallery_3.jpg";
+
 function About() {
   return (
     <div className="about_main">
@@ -58,7 +65,29 @@ function About() {
           </div>
         </div>
         <div className="about_col 3">
-          <div id="gallery"></div>
+          <Carousel>
+            <div>
+              <img src={image3} alt="Image 2" />
+              <p className="legend">
+                ACM Magic Mirror Project Showcased In ACM MSE Conference
+                (Gatlinburg, TN)
+              </p>
+            </div>
+            <div>
+              <img src={image2} alt="Image 2" />
+              <p className="legend">Hosting The 2nd Annual CIMS Symposium</p>
+            </div>
+
+            <div>
+              <img src={image1} alt="Image 1" />
+              <p className="legend">
+                {" "}
+                Mailchimp Launchpad: Technology Apprenticeship
+              </p>
+            </div>
+
+            {/* Add more images as needed */}
+          </Carousel>
         </div>
       </div>
       <div>
