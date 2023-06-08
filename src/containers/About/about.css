@@ -72,6 +72,7 @@
 #about_lists {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center; /* Center the items horizontally */
   list-style-type: none;
   padding-left: 0;
 }
@@ -81,6 +82,7 @@
   margin-bottom: 10px;
   position: relative;
   padding-left: 25px;
+  text-align: center; /* Center the text inside the list item */
 }
 
 #about_lists li:before {
@@ -91,10 +93,6 @@
   transform: translateY(-50%);
   width: 16px;
   height: 16px;
-  /* background-image: url("path/to/arrow.png"); */
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-color: blue;
 }
 
 #gallery {
