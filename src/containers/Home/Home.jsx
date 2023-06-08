@@ -16,12 +16,14 @@ function Home() {
           <div className="home_col 1">
             <h1 id="home_title">Juwan Hollingsworth. </h1>
             <br />
-            <div class="flipping_words">
-              <span className="flipping_w1"> Freelance</span>
-              <span className="flipping_w2">Professional</span>
-              <span className="flipping_w3">Hobbyist</span>
+            <div class="flipping_words" id="flipping_words_container">
+              <span className="flipping_w1"> Freelance Software Engineer</span>
+              <span className="flipping_w2">
+                Professional Software Engineer
+              </span>
+              <span className="flipping_w3">Hobbyist Software Engineer</span>
             </div>
-            <span class="home_static_h2">Software Engineer</span> <br />
+            <span class="home_static_h2" id="static_h2"></span> <br />
             <br />
             <span id="location">Atlanta, Georgia 📍</span>
             <br />
