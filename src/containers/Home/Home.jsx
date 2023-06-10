@@ -16,7 +16,7 @@ function Home() {
           <div className="home_row">
             <div className="home_col 1">
               <h1 id="home_title">Juwan Hollingsworth. </h1>
-              <br />
+
               <div class="flipping_words" id="flipping_words_container">
                 <span className="flipping_w1">
                   {" "}
@@ -27,10 +27,8 @@ function Home() {
                 </span>
                 <span className="flipping_w3">Hobbyist Software Engineer</span>
               </div>
-              <span class="home_static_h2" id="static_h2"></span> <br />
-              <br />
+              <span class="home_static_h2" id="static_h2"></span>
               <span id="location">Atlanta, Georgia 📍</span>
-              <br />
             </div>
             <div className="home_col 2">
               <div class="hero_img_container">
