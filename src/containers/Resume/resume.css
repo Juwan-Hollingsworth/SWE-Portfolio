@@ -7,7 +7,7 @@
 }
 
 .resume_container {
-  width: 75%;
+  width: 55%;
   height: 1400px;
   background-color: rgb(253, 252, 250);
   margin: 0 auto;
@@ -18,13 +18,13 @@
 }
 
 .resume_body {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 /* resume content */
 .resume_row {
   display: flex;
-  padding: 40px;
+  padding: 30px;
 }
 
 #label {
