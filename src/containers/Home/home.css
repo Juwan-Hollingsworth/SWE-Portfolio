@@ -5,6 +5,7 @@
   color: white;
   position: relative;
 }
+
 .column {
   float: left;
   width: 50%;
@@ -151,4 +152,12 @@ div.home_col[class="2"] {
   font-size: 1.5rem;
   font-weight: 200;
   text-transform: uppercase;
+}
+
+.navbar {
+  margin-right: 50px;
+}
+
+.navbar ul {
+  padding-top: 10px;
 }
