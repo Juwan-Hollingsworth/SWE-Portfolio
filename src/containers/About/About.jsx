@@ -57,15 +57,13 @@ function About() {
                 <li>Wordpress</li>
                 <li>Python</li>
               </ul>
-              <br />
-              <br />
               If you're looking for a dedicated and innovative software
               engineer, I'd love to connect and see how we can work together!
             </p>
           </div>
         </div>
         <div className="about_col 3">
-          <Carousel>
+          <Carousel showThumbs={false}>
             <div>
               <img src={image3} alt="Image 2" />
               <p className="legend">
@@ -90,11 +88,11 @@ function About() {
           </Carousel>
         </div>
       </div>
-      <div>
+      <div className="ctaBtn_container">
         {" "}
         <button id="cta_btn">Get In Touch 📩</button>
       </div>
-      <div>
+      <div className="about_arrow_container">
         {" "}
         <AnchorLink
           activeClass="active"

@@ -2,28 +2,42 @@
   background-color: #d8b81f;
   width: 100vw;
   min-height: 100vh;
-  padding: 20px;
+  /* padding: 20px; */
   color: white;
 }
 .about_row {
   display: flex;
-  flex-wrap: wrap;
-  margin-top: 100px;
+  flex-wrap: row;
+  margin-top: 50px;
+  margin-bottom: 0;
   justify-content: center; /* center horizontally */
-  padding: 0 125px;
+  padding: 0 50px;
 }
 
 .about_col {
-  flex: 1;
   margin-bottom: 20px;
   padding: 10px;
 }
 
-.profile_col {
-  float: right;
-  margin-right: 50px; /*adjust horizontally*/
+.about_col:nth-child(2) {
+  flex: 2; /* Set the second column to be twice the width of the others */
 }
 
+.about_col:first-child,
+.about_col:last-child {
+  flex: 1; /* Set the first and last columns to have equal width */
+}
+
+.profile_col {
+  float: right;
+}
+
+.about_title {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+  font-size: 2rem;
+}
 .about_name h2 {
   justify-content: center;
   align-items: center;
@@ -49,24 +63,24 @@
   position: relative;
 }
 
-.about_statement {
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
-}
-
 #cta_btn {
   color: white;
   border: 3px solid white;
   background-color: transparent;
   border-radius: 10px;
   padding: 10px 50px;
-  margin: 15px;
+  /* margin: 15px; */
   font-size: 30px;
   transition: all 0.3s ease;
 }
+.ctaBtn_container {
+  padding-bottom: 15px;
+}
 .about_statement {
-  padding: 5px; /*adjust text size*/
-  width: 40rem;
+  padding: 10px;
+  width: auto;
+  font-family: "Lato", sans-serif;
+  font-weight: 550;
 }
 
 #about_lists {
@@ -98,4 +112,8 @@
 #gallery {
   /* flex-basis: 10%; */
   /* margin-left: auto; */
+}
+
+.about_arrow_container {
+  padding: 10px;
 }
