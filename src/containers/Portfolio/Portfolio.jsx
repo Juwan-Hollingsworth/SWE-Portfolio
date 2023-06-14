@@ -8,6 +8,8 @@ import arrow from "../../assets/arrow.png";
 
 import { useState } from "react";
 
+import Card from "../../components/Card/Card.jsx";
+
 function Portfolio() {
   const [projects, updateProject] = useState([
     {

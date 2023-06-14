@@ -1,32 +1,53 @@
 import React, { useState } from "react";
 import "./card.css";
+import Modal from "../Modal/Modal";
 
-function Card() {
-  const Card = ({
-    id,
-    title,
-    description,
-    projectPic,
-    projectGif,
-    projectLink,
-    skills,
-  }) => {
-    const [showModal, setShowModal] = useState(false);
+function Card({
+  id,
+  title,
+  description,
+  projectPic,
+  projectGIF,
+  projectLink,
+  skills,
+}) {
+  const [showModal, setShowModal] = useState(false);
 
-    const handleClose = () => {
-      setShowModal(false);
-    };
+  const handleClose = () => {
+    setShowModal(false);
   };
 
   return (
-    <div className="card">
-      <div className="id"> {id}</div>
-      <div className="title">{title}</div>
-      <div className="description"> {description} </div>
-      <div className="projectPic">{projectPic} </div>
-      <div className="projectGIF">{projectGIF} </div>
-      <div className="projectLink">{projectLink} </div>
-    </div>
+    <>
+      <div className="card">
+        <div className="number"> {id}</div>
+        <div className="projectPic">{projectPic} </div>
+        <div className="project_info">
+          <h1 className="project_title">{title}</h1>
+          <p className="project_description"> {description} </p>
+          <p className="skills">{skills}</p>
+        </div>
+        <div className="projectGIF">{projectGIF} </div>
+        <div className="projectLink">{projectLink} </div>
+        {/* open modal */}
+        <button className="open_link" onClick={() => setShowModal(true)}>
+          Click to open project
+        </button>
+      </div>
+      {showModal && (
+        // render the modal component
+        <Modal
+          id={id}
+          title={title}
+          description={description}
+          projectPic={projectPic}
+          projectGIF={projectGIF}
+          projectLink={projectLink}
+          handleClose={handleClose}
+          skills={skills}
+        />
+      )}
+    </>
   );
 }
 
