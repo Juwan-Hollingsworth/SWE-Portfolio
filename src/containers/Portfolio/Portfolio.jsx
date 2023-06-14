@@ -39,6 +39,24 @@ function Portfolio() {
       projectGIF: "https://rb.gy/9jh39",
       projectLink: "https://rb.gy/9jh39",
     },
+    {
+      id: 4,
+      title: "Project Sample 3",
+      description: "Descr",
+      skills: ["HTML", "CSS", "JavaScript", "React", "Next.js"],
+      projectPic: "https://rb.gy/9jh39",
+      projectGIF: "https://rb.gy/9jh39",
+      projectLink: "https://rb.gy/9jh39",
+    },
+    {
+      id: 5,
+      title: "Project Sample 3",
+      description: "Descr",
+      skills: ["HTML", "CSS", "JavaScript", "React", "Next.js"],
+      projectPic: "https://rb.gy/9jh39",
+      projectGIF: "https://rb.gy/9jh39",
+      projectLink: "https://rb.gy/9jh39",
+    },
   ]);
   return (
     <div className="portfolio_main">
