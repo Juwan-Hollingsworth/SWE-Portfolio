@@ -6,7 +6,38 @@ import gpt3 from "../../assets/gpt3.png";
 import { Link as AnchorLink } from "react-scroll";
 import arrow from "../../assets/arrow.png";
 
+import { useState } from "react";
+
 function Portfolio() {
+  const [projects, updateProject] = useState([
+    {
+      id: 1,
+      title: "Project Sample",
+      description: "Descr",
+      skills: ["HTML", "CSS", "JavaScript", "React", "Next.js"],
+      projectPic: "https://rb.gy/9jh39",
+      projectGIF: "https://rb.gy/9jh39",
+      projectlink: "https://rb.gy/9jh39",
+    },
+    {
+      id: 2,
+      title: "Project Sample 2",
+      description: "Descr",
+      skills: ["HTML", "CSS", "JavaScript", "React", "Next.js"],
+      projectPic: "https://rb.gy/9jh39",
+      projectGIF: "https://rb.gy/9jh39",
+      projectlink: "https://rb.gy/9jh39",
+    },
+    {
+      id: 3,
+      title: "Project Sample 3",
+      description: "Descr",
+      skills: ["HTML", "CSS", "JavaScript", "React", "Next.js"],
+      projectPic: "https://rb.gy/9jh39",
+      projectGIF: "https://rb.gy/9jh39",
+      projectLink: "https://rb.gy/9jh39",
+    },
+  ]);
   return (
     <div className="portfolio_main">
       <h2 className="project__title">02. Portfolio</h2>
@@ -22,32 +53,21 @@ function Portfolio() {
       <hr className="category_divider" />
 
       <div className="gallery_container">
-        <div className="card web">
-          <img src={login}></img>
-        </div>
-        <div className="card web">
-          <img src={spark}></img>
-        </div>
-        <div className="card web">
-          <img src={gpt3}></img>
-        </div>
-        <div className="card data">
-          <img src={spark}></img>
-        </div>
-        <div className="card data">
-          <img src={gpt3}></img>
-        </div>
-        <div className="card data">
-          <img src={login}></img>
-        </div>
-        <div className="card other">
-          <img src={gpt3}></img>
-        </div>
-        <div className="card other">
-          <img src={login}></img>
-        </div>
-        <div className="card other">
-          <img src={spark}></img>
+        <div className="project_card">
+          {projects.map((project) => {
+            return (
+              <Card
+                key={project.id}
+                id={project.id}
+                title={project.title}
+                description={project.description}
+                skills={project.skills}
+                projectPic={project.projectPic}
+                projectGIF={project.projectGIF}
+                projectLink={project.projectLink}
+              />
+            );
+          })}
         </div>
       </div>
       <div>
