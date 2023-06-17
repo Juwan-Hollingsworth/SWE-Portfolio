@@ -13,7 +13,7 @@ function Portfolio() {
   const [projects, updateProject] = useState([
     {
       id: 1,
-      title: "Project Sample",
+      title: "CRUD Login",
       description: "Descr",
       skills: ["HTML", "CSS", "JavaScript", "React", "Next.js"],
       projectPic: login,
@@ -22,7 +22,7 @@ function Portfolio() {
     },
     {
       id: 2,
-      title: "Project Sample 2",
+      title: "Agency UX Design",
       description: "Descr",
       skills: ["HTML", "CSS", "JavaScript", "React", "Next.js"],
       projectPic: spark,
@@ -31,7 +31,7 @@ function Portfolio() {
     },
     {
       id: 3,
-      title: "Project Sample 3",
+      title: "Responsive GPT3 Site",
       description: "Descr",
       skills: ["HTML", "CSS", "JavaScript", "React", "Next.js"],
       projectPic: gpt3,
@@ -40,7 +40,7 @@ function Portfolio() {
     },
     {
       id: 4,
-      title: "Project Sample 3",
+      title: "Banking Application",
       description: "Descr",
       skills: ["HTML", "CSS", "JavaScript", "React", "Next.js"],
       projectPic: "https://rb.gy/9jh39",
@@ -49,7 +49,7 @@ function Portfolio() {
     },
     {
       id: 5,
-      title: "Project Sample 3",
+      title: "Social Media Metrics App",
       description: "Descr",
       skills: ["HTML", "CSS", "JavaScript", "React", "Next.js"],
       projectPic: "https://rb.gy/9jh39",
