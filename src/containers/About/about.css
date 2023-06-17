@@ -12,6 +12,8 @@
   margin-bottom: 0;
   justify-content: center; /* center horizontally */
   padding: 0 25px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .about_col {
