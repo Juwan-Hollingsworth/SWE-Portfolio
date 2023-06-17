@@ -25,7 +25,7 @@ function Portfolio() {
       title: "Project Sample 2",
       description: "Descr",
       skills: ["HTML", "CSS", "JavaScript", "React", "Next.js"],
-      projectPic: "https://rb.gy/9jh39",
+      projectPic: spark,
       projectGIF: "https://rb.gy/9jh39",
       projectlink: "https://rb.gy/9jh39",
     },
@@ -34,7 +34,7 @@ function Portfolio() {
       title: "Project Sample 3",
       description: "Descr",
       skills: ["HTML", "CSS", "JavaScript", "React", "Next.js"],
-      projectPic: "https://rb.gy/9jh39",
+      projectPic: gpt3,
       projectGIF: "https://rb.gy/9jh39",
       projectLink: "https://rb.gy/9jh39",
     },
@@ -73,7 +73,7 @@ function Portfolio() {
 
       <div className="gallery_container">
         <Carousel show={3.5} slide={3} swiping={true}>
-          map over project data
+          {/* map over project data */}
           {projects.map((project) => (
             //render and pass data to card component
             <Card
