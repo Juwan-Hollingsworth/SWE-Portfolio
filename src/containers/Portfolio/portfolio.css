@@ -1,9 +1,11 @@
 .portfolio_main {
   background-color: #152238;
-  width: 100vw;
   min-height: 100vh;
   color: white;
   padding: 50px;
+  height: 800px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .project_categories {
@@ -32,6 +34,7 @@
   height: 800px; /* Adjust the value to fit within the viewport */
   overflow-y: auto; /* Enable vertical scrolling */
   padding-top: 25px;
+  position: relative;
 }
 
 .project_card {

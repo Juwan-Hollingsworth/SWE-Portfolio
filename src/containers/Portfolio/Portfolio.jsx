@@ -9,6 +9,7 @@ import arrow from "../../assets/arrow.png";
 import { useState } from "react";
 
 import Card from "../../components/Card/Card.jsx";
+import { Carousel } from "@trendyol-js/react-carousel";
 
 function Portfolio() {
   const [projects, updateProject] = useState([
@@ -17,7 +18,7 @@ function Portfolio() {
       title: "Project Sample",
       description: "Descr",
       skills: ["HTML", "CSS", "JavaScript", "React", "Next.js"],
-      projectPic: "https://rb.gy/9jh39",
+      projectPic: <img src={login} />,
       projectGIF: "https://rb.gy/9jh39",
       projectlink: "https://rb.gy/9jh39",
     },
@@ -73,22 +74,14 @@ function Portfolio() {
       <hr className="category_divider" />
 
       <div className="gallery_container">
-        <div className="project_card">
-          {projects.map((project) => {
-            return (
-              <Card
-                key={project.id}
-                id={project.id}
-                title={project.title}
-                description={project.description}
-                skills={project.skills}
-                projectPic={project.projectPic}
-                projectGIF={project.projectGIF}
-                projectLink={project.projectLink}
-              />
-            );
-          })}
-        </div>
+        <Carousel show={3.5} slide={3} swiping={true}>
+          <Card></Card>
+          <Card></Card>
+          <Card></Card>
+          <Card></Card>
+          <Card></Card>
+          <Card></Card>
+        </Carousel>
       </div>
       <div>
         <div className="port_arrow">
