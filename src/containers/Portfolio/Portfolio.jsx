@@ -5,9 +5,7 @@ import spark from "../../assets/spark.png";
 import gpt3 from "../../assets/gpt3.png";
 import { Link as AnchorLink } from "react-scroll";
 import arrow from "../../assets/arrow.png";
-
 import { useState } from "react";
-
 import Card from "../../components/Card/Card.jsx";
 import { Carousel } from "@trendyol-js/react-carousel";
 
@@ -18,7 +16,7 @@ function Portfolio() {
       title: "Project Sample",
       description: "Descr",
       skills: ["HTML", "CSS", "JavaScript", "React", "Next.js"],
-      projectPic: <img src={login} />,
+      projectPic: login,
       projectGIF: "https://rb.gy/9jh39",
       projectlink: "https://rb.gy/9jh39",
     },
@@ -75,12 +73,20 @@ function Portfolio() {
 
       <div className="gallery_container">
         <Carousel show={3.5} slide={3} swiping={true}>
-          <Card></Card>
-          <Card></Card>
-          <Card></Card>
-          <Card></Card>
-          <Card></Card>
-          <Card></Card>
+          map over project data
+          {projects.map((project) => (
+            //render and pass data to card component
+            <Card
+              key={project.id}
+              id={project.id}
+              title={project.title}
+              description={project.description}
+              projectPic={project.projectPic}
+              projectGIF={project.projectGIF}
+              projectLink={project.projectLink}
+              skills={project.skills}
+            />
+          ))}
         </Carousel>
       </div>
       <div>

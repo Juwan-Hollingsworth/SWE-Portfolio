@@ -21,7 +21,7 @@ function Card({
     <>
       <div className="card">
         <div className="number"> {id}</div>
-        <div className="projectPic">{projectPic} </div>
+        <img className="projectPic" src={projectPic} alt={`Project ${id}`} />
         <div className="project_info">
           <h1 className="project_title">{title}</h1>
           <p className="project_description"> {description} </p>
@@ -31,8 +31,11 @@ function Card({
         <div className="projectLink">{projectLink} </div>
         {/* open modal */}
         <button className="open_link" onClick={() => setShowModal(true)}>
-          Click to open project
+          Open Project Details
         </button>
+        <div className="gh_link">
+          <button onClick={() => setShowModal(true)}>Github</button>
+        </div>
       </div>
       {showModal && (
         // render the modal component

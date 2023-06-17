@@ -3,7 +3,6 @@
   border-radius: 10px;
   width: 300px;
   padding: 10px;
-  background-color: red;
 }
 
 .number {
@@ -51,4 +50,8 @@
   .card {
     margin-top: 3rem;
   }
+}
+
+.gh_link {
+  padding: 20px;
 }
