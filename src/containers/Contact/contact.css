@@ -3,34 +3,39 @@
   width: 100vw;
   min-height: 100vh;
   color: white;
-  /* margin-bottom: 100px; */
   display: flex;
-  flex-direction: column; /* change to column to stack elements vertically */
-  justify-content: center; /* center elements vertically */
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   background-color: #152238;
-  position: relative; /* add position to allow absolute positioning of h1 element */
+  position: relative;
   padding: 40px;
 }
+
 .contact_title {
   position: absolute;
-  top: 0;
-  padding-top: 25px;
-  left: 50%; /* move left by half of the container width to center the h1 element */
+  top: 10px;
+  left: 50%;
   transform: translateX(-50%);
   color: white;
   font-size: 50px;
+}
+
+.contact_items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .ghostBtn_contact {
   color: white;
   border: 3px solid white;
   background-color: transparent;
-  border-radius: 10px; /* add border radius to make the corners rounded */
+  border-radius: 10px;
   padding: 10px 50px;
   margin: 15px;
   font-size: 50px;
-  transition: all 0.3s ease; /* add transition effect to hover state */
+  transition: all 0.3s ease;
 }
 
 .ghostBtn_contact:hover {
@@ -42,5 +47,4 @@
 .contact_arrow {
   transform: rotate(180deg);
   width: 100%;
-  /* text-align: center; */
 }
