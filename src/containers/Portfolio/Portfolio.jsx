@@ -10,6 +10,14 @@ import Card from "../../components/Card/Card.jsx";
 import { Carousel } from "@trendyol-js/react-carousel";
 
 function Portfolio() {
+  const leftArrow = (
+    <span className="material-symbols-outlined">arrow_back_ios</span>
+  );
+
+  const rightArrow = (
+    <span class="material-symbols-outlined">arrow_forward_ios</span>
+  );
+
   const [projects, updateProject] = useState([
     {
       id: 1,
@@ -72,7 +80,13 @@ function Portfolio() {
       <hr className="category_divider" />
 
       <div className="gallery_container">
-        <Carousel show={3.5} slide={3} swiping={true}>
+        <Carousel
+          show={3.5}
+          slide={3}
+          swiping={true}
+          rightArrow={rightArrow}
+          leftArrow={leftArrow}
+        >
           {/* map over project data */}
           {projects.map((project) => (
             //render and pass data to card component
