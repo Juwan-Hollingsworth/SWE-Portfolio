@@ -55,11 +55,18 @@ function Resume() {
               COURSE-WORK:
             </div>
             <div className="coursework" id="content">
-              • Data Structures and Algorithms <br />
-              • Computer Organization and Architecture <br />• Operating Systems{" "}
-              <br />• Programming Languages
-              <br /> • Theory of Computing <br />• Professional and Technical
-              Writing
+              <ul>
+                <li className="resume_li">Data Structures and Algorithms</li>
+                <li className="resume_li">
+                  Computer Organization and Architecture
+                </li>
+                <li className="resume_li">Operating Systems</li>
+                <li className="resume_li">Programming Languages</li>
+                <li className="resume_li">Theory of Computing</li>
+                <li className="resume_li">
+                  Professional and Technical Writing
+                </li>
+              </ul>
             </div>
           </div>
           <div className="resume_row">
@@ -95,12 +102,12 @@ function Resume() {
                 <h3>Mentorship Program | Intuit Mailchimp – Atlanta, GA</h3>
                 <span className="date">Aug 2022 - Current</span>
                 <ul>
-                  <li>
+                  <li className="resume_li">
                     Mailchimp's Launchpad Program helps students adapt to
                     technical, social, and business expectations of the 21st
                     century workforce.
                   </li>
-                  <li>
+                  <li className="resume_li">
                     Over the course of my senior semester, I partnered with
                     multiple departments of Mailchimp for insightful
                     conversation and hands-on experience surrounding the
@@ -112,43 +119,45 @@ function Resume() {
                 <h3>Software Engineer Intern | Cox Automotive – Atlanta, GA</h3>
                 <span className="date">May - Aug 2022</span>
                 <ul>
-                  <li>Contribute production-level code used in beta launch.</li>
-                  <li>
+                  <li className="resume_li">
+                    Contribute production-level code used in beta launch.
+                  </li>
+                  <li className="resume_li">
                     Debug and test both front and backend codebase using Jest,
                     Test Café, Applitools.
                   </li>
-                  <li>
+                  <li className="resume_li">
                     Research, investigate and fix a wide range of technical
                     issues using Devtools.
                   </li>
-                  <li>
+                  <li className="resume_li">
                     Proactively learn about new technologies, methodologies, and
                     skills on the fly.
                   </li>
-                  <li>
+                  <li className="resume_li">
                     Collaborate with senior leaders & developers to achieve
                     successful beta launch.
                   </li>
-                  <li>
+                  <li className="resume_li">
                     Utilize APIs and API software such as Postman and Swagger.
                   </li>
-                  <li>
+                  <li className="resume_li">
                     Utilize Git & GitHub for version control, PRs, & repo
                     management.
                   </li>
-                  <li>
+                  <li className="resume_li">
                     Produce software documentation specifically mapping data
                     points across the application as a reference for new members
                     to the team.
                   </li>
-                  <li>
+                  <li className="resume_li">
                     Assist new team members in setting up development
                     environments.
                   </li>
-                  <li>
+                  <li className="resume_li">
                     Query, maintain and update database system using MongoDB.
                   </li>
-                  <li>
+                  <li className="resume_li">
                     Implement/work with AWS products such as s3 buckets,
                     lambdas, etc.
                   </li>
@@ -158,15 +167,15 @@ function Resume() {
                 <h3>Web Development Intern | Spark Social – Atlanta, GA</h3>
                 <span className="date">05/2021 - 08/2021</span>
                 <ul>
-                  <li>
+                  <li className="resume_li">
                     Developed user interfaces with modern JavaScript frameworks,
                     HTML5, and CSS3.
                   </li>
-                  <li>
+                  <li className="resume_li">
                     Troubleshot and debugged code ensuring compatibility with
                     devices, browsers, and operating systems.
                   </li>
-                  <li>
+                  <li className="resume_li">
                     Utilized scripting languages, content creation tools,
                     management tools, and digital media to design web sites.
                   </li>
