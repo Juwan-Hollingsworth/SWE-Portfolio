@@ -6,7 +6,7 @@ import gpt3 from "../../assets/gpt3.png";
 import { Link as AnchorLink } from "react-scroll";
 import arrow from "../../assets/arrow.png";
 import { useState } from "react";
-import Card from "../../components/Card/Card.jsx";
+import Card from "../../components/Card/fix.jsx";
 import { Carousel } from "@trendyol-js/react-carousel";
 
 function Portfolio() {
