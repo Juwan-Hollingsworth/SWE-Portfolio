@@ -1,0 +1,28 @@
+.banner {
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  width: 50px;
+  background-color: #f1f1f1;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  /* overflow: hidden; */
+}
+
+.banner-text {
+  animation: moveText 10s linear infinite;
+}
+
+.moving-text {
+  white-space: nowrap;
+}
+
+@keyframes moveText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
