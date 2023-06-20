@@ -47,7 +47,7 @@
 .card {
   flex: 0 0 auto; /* Prevent cards from shrinking */
   width: 30%;
-  height: 450px;
+  /* height: 450px; */ /*specify exact height of card gallery*/
   margin: 10px;
   /* Rest of the CSS for card styling */
 }

@@ -72,11 +72,3 @@
   background-color: #9393b2;
   color: #ffff;
 }
-
-@media screen and (max-width: 480px) {
-  .modal_skills li {
-    padding: 0.5rem 0.8rem;
-    margin: 2rem 0.4rem;
-    font-size: 1rem;
-  }
-}

@@ -10,6 +10,7 @@ import Card from "../../components/Card/Card.jsx";
 import { Carousel } from "@trendyol-js/react-carousel";
 
 function Portfolio() {
+  //styled icons for carousel
   const leftArrow = (
     <span className="material-symbols-outlined">arrow_back_ios</span>
   );
@@ -51,7 +52,7 @@ function Portfolio() {
       title: "Banking Application",
       description: "Descr",
       skills: ["HTML", "CSS", "JavaScript", "React", "Next.js"],
-      projectPic: "https://rb.gy/9jh39",
+      projectPic: login,
       projectGIF: "https://rb.gy/9jh39",
       projectLink: "https://rb.gy/9jh39",
     },
@@ -60,7 +61,7 @@ function Portfolio() {
       title: "Social Media Metrics App",
       description: "Descr",
       skills: ["HTML", "CSS", "JavaScript", "React", "Next.js"],
-      projectPic: "https://rb.gy/9jh39",
+      projectPic: spark,
       projectGIF: "https://rb.gy/9jh39",
       projectLink: "https://rb.gy/9jh39",
     },

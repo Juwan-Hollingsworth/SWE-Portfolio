@@ -20,23 +20,23 @@ function Card({
   return (
     <>
       <div className="card">
-        <div className="number"> {id}</div>
-        <img className="projectPic" src={projectPic} alt={`Project ${id}`} />
-        <div className="project_info">
-          <h1 className="project_title">{title}</h1>
-          <p className="project_description"> {description} </p>
-          <p className="skills">{skills}</p>
+        <div className="number">
+          {" "}
+          {id} | <h1 className="project_title">{title}</h1>{" "}
         </div>
-        <div className="projectGIF">{projectGIF} </div>
-        <div className="projectLink">{projectLink} </div>
+        <img className="projectPic" src={projectPic} alt={`Project ${id}`} />
+        <div className="project_info"></div>
         {/* open modal */}
-        <button className="open_link" onClick={() => setShowModal(true)}>
-          Open Project Details
-        </button>
-        <div className="gh_link">
-          <button onClick={() => setShowModal(true)}>Github</button>
+        <div className="card_btns">
+          <button className="open_link" onClick={() => setShowModal(true)}>
+            Open Project Details
+          </button>
+          <div className="gh_link">
+            <button onClick={() => setShowModal(true)}>Github</button>
+          </div>
         </div>
       </div>
+
       {showModal && (
         // render the modal component
         <Modal
