@@ -1,6 +1,6 @@
 import "./App.css";
 import { Home, About, Contact, Portfolio, Resume } from "./containers";
-import Banner from "../../portfolio_2/src/components/Banner/Banner.jsx";
+import Banner from "./components/Banner/Banner.jsx";
 
 function App() {
   return (
