@@ -5,7 +5,9 @@ function Banner() {
   return (
     <div className="banner">
       <div className="banner-text">
-        <span className="moving-text">Banner</span>
+        <span className="moving-text">
+          Site is currently being updated, thanks for understanding 🙂
+        </span>
       </div>
     </div>
   );

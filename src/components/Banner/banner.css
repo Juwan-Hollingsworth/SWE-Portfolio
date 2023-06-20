@@ -2,16 +2,20 @@
   /* position: fixed; */
   top: 0;
   left: 0;
-  width: 50px;
-  background-color: #f1f1f1;
-  height: 50px;
-  display: flex;
+  width: 25px;
+  background-color: #d8b81f;
+  height: 25px;
+  /* display: flex; */
   align-items: center;
-  /* overflow: hidden; */
+  overflow: hidden;
+  width: 100vw;
 }
 
 .banner-text {
-  animation: moveText 10s linear infinite;
+  animation: moveText 30s linear infinite;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  color: white;
 }
 
 .moving-text {
