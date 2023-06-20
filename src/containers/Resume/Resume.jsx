@@ -13,9 +13,13 @@ function Resume() {
             Juwan <br /> Hollingsworth
           </h1>
           <h3>
-            📩: Jhollingsworth5@student.clayton.edu | 📞: [redacted] | 📍
-            Atlanta, GA 30303
+            📩:{" "}
+            <a href="mailto:Jhollingsworth5@student.clayton.edu">
+              Jhollingsworth5@student.clayton.edu
+            </a>{" "}
+            | 📞: [redacted] | 📍 Atlanta, GA 30303
           </h3>
+
           <hr />
         </div>
         <div className="resume_body">
@@ -24,7 +28,13 @@ function Resume() {
               LINKS:
             </div>
             <div className="link" id="content">
-              linkedin.com
+              <a
+                href="https://www.linkedin.com/in/juwan-hollingsworth-8a8b48a5/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://www.linkedin.com/in/juwan-hollingsworth
+              </a>
             </div>
           </div>
           <div className="resume_row">
