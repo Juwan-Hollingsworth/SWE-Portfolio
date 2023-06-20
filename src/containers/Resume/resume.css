@@ -7,7 +7,7 @@
 }
 
 .resume_container {
-  width: 55%;
+  width: 65%;
   height: 1400px;
   background-color: rgb(253, 252, 250);
   margin: 0 auto;
@@ -80,4 +80,6 @@ ul {
   text-align: right; /* Align the title to the left */
   padding-top: 25px;
   padding-left: 115px;
+  padding-right: 200px;
+  padding-bottom: 15px;
 }
