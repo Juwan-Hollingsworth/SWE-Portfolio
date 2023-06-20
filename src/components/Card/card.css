@@ -43,3 +43,20 @@
 .card_btns {
   padding: 15px;
 }
+
+.open_link,
+.gh_link button {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.open_link:hover,
+.gh_link button:hover {
+  background-color: #ffffff;
+  color: #152238;
+}
