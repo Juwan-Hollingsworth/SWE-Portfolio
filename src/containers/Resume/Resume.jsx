@@ -6,7 +6,7 @@ import arrow from "../../assets/arrow.png";
 function Resume() {
   return (
     <div className="resume_main">
-      <h1 className="resume_title">Resume</h1>
+      <h1 className="resume_title">03. Resume👨🏾‍💻</h1>
       <div className="resume_container">
         <div className="resume_header">
           <h1>

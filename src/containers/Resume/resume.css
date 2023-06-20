@@ -71,3 +71,13 @@ ul {
 
   list-style-type: none;
 }
+
+.resume_title {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+  font-size: 2rem;
+  text-align: right; /* Align the title to the left */
+  padding-top: 25px;
+  padding-left: 115px;
+}

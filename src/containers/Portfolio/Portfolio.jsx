@@ -68,7 +68,7 @@ function Portfolio() {
   ]);
   return (
     <div className="portfolio_main">
-      <h2 className="project__title">02. Portfolio</h2>
+      <h2 className="portfolio_title">02. Recent projects 👾 </h2>
       <div className="project_categories">
         <label className="menu_options">#️⃣All Projects</label>
         <label className="menu_options">#️⃣Web Development</label>

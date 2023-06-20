@@ -16,7 +16,7 @@ import image3 from "../../assets/gallery_3.jpg";
 function About() {
   return (
     <div className="about_main">
-      <h2 className="about_title">01. About Me</h2>
+      <h2 className="about_title">01. Get to know the dev 👋🏾,</h2>
       <div className="about_row">
         <div className="about_col 1">
           <div className="profile_col">

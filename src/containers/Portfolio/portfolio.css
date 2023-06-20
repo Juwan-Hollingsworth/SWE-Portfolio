@@ -71,3 +71,17 @@
   justify-content: space-around;
   margin-top: 4rem;
 }
+
+.portfolio_title {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  /* position: fixed;  */
+  top: 50%; /* Position the element vertically at 50% from the top */
+  left: 50%; /* Position the element horizontally at 50% from the left */
+  /* transform: translate(-50%, -50%);  */
+}
