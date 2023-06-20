@@ -35,28 +35,35 @@ function About() {
           <div className="about_statement">
             <p>
               Hi there, nice to meet you! I'm Juwan, a software engineer and
-              college graduate with a bachelors in Computer Science. I'm
+              college graduate with a bachelor's in Computer Science. I'm
               passionate about creating things that live on the web, and I've
               had some pretty cool experiences along the way. My journey began
               back in high school when I ran a sneaker business and discovered
               firsthand how digital implementation can transform a business.
-              From there, I taught myself dreamweaver and continued to build my
+              From there, I taught myself Dreamweaver and continued to build my
               coding skills. While studying biology and computer science at
               Clayton State University, I've been fortunate enough to work with
               some big names in Atlanta such as COX Automotive, MailChimp, and
               Spark Social. These days, my primary focus is on creating digital
               experiences and products that are accessible and inclusive for a
-              wide range of clients. <br />
+              wide range of clients.
+              <br />
               <br />
               Here are a few technologies I've been working with recently:
-              <ul id="about_lists">
-                <li>Javascript</li>
-                <li>Node</li>
-                <li>React</li>
-                <li>MongoDB</li>
-                <li>Wordpress</li>
-                <li>Python</li>
+            </p>
+            <div className="about_technologies">
+              <ul className="about_list">
+                <li className="about_item">Javascript</li>
+                <li className="about_item">Node</li>
+                <li className="about_item">React</li>
               </ul>
+              <ul className="about_list">
+                <li className="about_item">MongoDB</li>
+                <li className="about_item">Wordpress</li>
+                <li className="about_item">Python</li>
+              </ul>
+            </div>
+            <p>
               If you're looking for a dedicated and innovative software
               engineer, I'd love to connect and see how we can work together!
             </p>

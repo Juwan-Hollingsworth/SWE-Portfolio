@@ -100,24 +100,6 @@
   font-size: 12px;
 }
 
-#about_lists li {
-  flex-basis: 50%;
-  margin-bottom: 10px;
-  position: relative;
-  padding-left: 25px;
-  text-align: center; /* Center the text inside the list item */
-}
-
-#about_lists li:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 16px;
-  height: 16px;
-}
-
 #gallery {
   /* flex-basis: 10%; */
   /* margin-left: auto; */
@@ -125,4 +107,24 @@
 
 .about_arrow_container {
   padding: 10px;
+}
+
+.about_technologies {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.about_list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  /* margin-right: 20px; */
+}
+
+.about_item {
+  margin-bottom: 10px;
+  /* text-align: center; */
+  align-items: center;
 }
