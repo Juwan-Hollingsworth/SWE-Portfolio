@@ -82,7 +82,7 @@ function Portfolio() {
 
       <div className="gallery_container">
         <Carousel
-          show={3.5}
+          show={3}
           slide={3}
           swiping={true}
           rightArrow={rightArrow}
