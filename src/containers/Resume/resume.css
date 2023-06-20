@@ -24,19 +24,48 @@
 /* resume content */
 .resume_row {
   display: flex;
-  padding: 30px;
+  padding: 25px;
 }
 
 #label {
-  width: 30%;
+  width: 10%;
   font-weight: bold;
   padding-right: 10px;
 }
 
 #content {
-  width: 60%;
+  width: 90%;
 }
 
 .resume_arrow {
   padding-top: 25px;
+}
+
+.work {
+  font-family: Arial, sans-serif;
+}
+
+.job {
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.date {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+li {
+  margin-bottom: 5px;
 }

@@ -91,32 +91,87 @@ function Resume() {
               WORK HISTORY:
             </div>
             <div className="work" id="content">
-              Mentorship Program | Intuit Mailchimp – Atlanta, GA Aug 2022 -
-              Current • Mailchimp's Launchpad Program helps students adapt to
-              technical, social, and business expectations of the 21st century
-              workforce. • Over the course of my senior semester I partnered
-              with multiple departments of Mailchimp for insightful conversation
-              and hands on experience surrounding the technology industry.
-              Software Engineer Intern | Cox Automotive – Atlanta, GA May - Aug
-              2022 • Contribute production level code used in beta launch. •
-              Debug and test both front and backend codebase using Jest, Test
-              Café, Applitools. • Research, investigate and fix a wide range of
-              technical issues using Devtools. • Proactively learn about new
-              technologies, methodologies, and skills on the fly. • Collaborate
-              with senior leaders & developers to achieve successful beta
-              launch. • Utilize APIs and API software such as Postman and
-              Swagger. • Utilize Git & GitHub for version control, PRs, & repo
-              management. • Produce software documentation specifically mapping
-              data points across the application as a reference for new members
-              to the team. • Assist new team members in setting up development
-              environments. • Query, maintain and update database system using
-              MongoDB. • Implement/work with AWS products such as s3 buckets,
-              lambdas, etc. Web Development Intern | Spark Social – Atlanta, GA
-              05/2021 - 08/2021 • Developed user interfaces with modern
-              JavaScript frameworks, HTML5 and CSS3. • Troubleshot and debugged
-              code ensuring compatibility with devices, browsers, and operating
-              systems. • Utilized scripting languages, content creation tools,
-              management tools, and digital media to design web sites.
+              <div className="job">
+                <h3>Mentorship Program | Intuit Mailchimp – Atlanta, GA</h3>
+                <span className="date">Aug 2022 - Current</span>
+                <ul>
+                  <li>
+                    Mailchimp's Launchpad Program helps students adapt to
+                    technical, social, and business expectations of the 21st
+                    century workforce.
+                  </li>
+                  <li>
+                    Over the course of my senior semester, I partnered with
+                    multiple departments of Mailchimp for insightful
+                    conversation and hands-on experience surrounding the
+                    technology industry.
+                  </li>
+                </ul>
+              </div>
+              <div className="job">
+                <h3>Software Engineer Intern | Cox Automotive – Atlanta, GA</h3>
+                <span className="date">May - Aug 2022</span>
+                <ul>
+                  <li>Contribute production-level code used in beta launch.</li>
+                  <li>
+                    Debug and test both front and backend codebase using Jest,
+                    Test Café, Applitools.
+                  </li>
+                  <li>
+                    Research, investigate and fix a wide range of technical
+                    issues using Devtools.
+                  </li>
+                  <li>
+                    Proactively learn about new technologies, methodologies, and
+                    skills on the fly.
+                  </li>
+                  <li>
+                    Collaborate with senior leaders & developers to achieve
+                    successful beta launch.
+                  </li>
+                  <li>
+                    Utilize APIs and API software such as Postman and Swagger.
+                  </li>
+                  <li>
+                    Utilize Git & GitHub for version control, PRs, & repo
+                    management.
+                  </li>
+                  <li>
+                    Produce software documentation specifically mapping data
+                    points across the application as a reference for new members
+                    to the team.
+                  </li>
+                  <li>
+                    Assist new team members in setting up development
+                    environments.
+                  </li>
+                  <li>
+                    Query, maintain and update database system using MongoDB.
+                  </li>
+                  <li>
+                    Implement/work with AWS products such as s3 buckets,
+                    lambdas, etc.
+                  </li>
+                </ul>
+              </div>
+              <div className="job">
+                <h3>Web Development Intern | Spark Social – Atlanta, GA</h3>
+                <span className="date">05/2021 - 08/2021</span>
+                <ul>
+                  <li>
+                    Developed user interfaces with modern JavaScript frameworks,
+                    HTML5, and CSS3.
+                  </li>
+                  <li>
+                    Troubleshot and debugged code ensuring compatibility with
+                    devices, browsers, and operating systems.
+                  </li>
+                  <li>
+                    Utilized scripting languages, content creation tools,
+                    management tools, and digital media to design web sites.
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
           <div className="resume_row">
