@@ -20,7 +20,7 @@ function About() {
       <div className="about_row">
         <div className="about_col 1">
           <div className="profile_col">
-            <img className="about_headshot" src={headshot} />
+            <img className="about_headshot" id="about-anchor" src={headshot} />
             <div className="about_name">
               <h2>Juwan Hollingsworth</h2>
             </div>
@@ -103,13 +103,13 @@ function About() {
         {" "}
         <AnchorLink
           activeClass="active"
-          to="portfolio"
+          to="portfolio-anchor"
           spy={true}
           smooth={true}
           offset={-100}
           duration={500}
         >
-          <img className="arrow" src={arrow} />
+          <img className="arrow" id="about-arrow" src={arrow} />
         </AnchorLink>
       </div>
     </div>

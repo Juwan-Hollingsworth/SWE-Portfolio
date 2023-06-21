@@ -41,7 +41,7 @@ function Home() {
           {" "}
           <AnchorLink
             activeClass="active"
-            to="about"
+            to="about-anchor"
             spy={true}
             smooth={true}
             offset={-100}

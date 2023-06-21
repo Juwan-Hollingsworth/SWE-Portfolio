@@ -77,6 +77,7 @@ function Portfolio() {
         <label className="menu_options">#️⃣Artifical Intelligence</label>
         <label className="menu_options">#️⃣Algorithmic Trading</label>
         <label className="menu_options">#️⃣Other Projects</label>
+        <div id="portfolio-anchor"></div>
       </div>
       <hr className="category_divider" />
 
@@ -108,7 +109,7 @@ function Portfolio() {
             {" "}
             <AnchorLink
               activeClass="active"
-              to="resume"
+              to="resume-anchor"
               spy={true}
               smooth={true}
               offset={-100}

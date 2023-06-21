@@ -7,7 +7,7 @@ function Resume() {
   return (
     <div className="resume_main">
       <h2 className="resume_title">03. Resume 👨🏾‍💻</h2>
-      <div className="resume_container">
+      <div className="resume_container" id="resume-anchor">
         <div className="resume_header">
           <h1>
             Juwan <br /> Hollingsworth
@@ -210,7 +210,7 @@ function Resume() {
         {" "}
         <AnchorLink
           activeClass="active"
-          to="contact"
+          to="contact-anchor"
           spy={true}
           smooth={true}
           offset={-100}
