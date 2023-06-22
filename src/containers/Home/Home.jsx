@@ -14,10 +14,9 @@ function Home() {
         </div>
         <div className="home_hero">
           <div className="home_row">
-            <div className="home_col 1">
-              <h1 id="home_title">Juwan Hollingsworth. </h1>
-
-              <div class="flipping_words" id="flipping_words_container">
+            <div className="home_col-1">
+              <h1 id="home_title">Juwan Hollingsworth.</h1>
+              <div className="flipping_words" id="flipping_words_container">
                 <span className="flipping_w1">
                   {" "}
                   Freelance Software Engineer
@@ -27,18 +26,17 @@ function Home() {
                 </span>
                 <span className="flipping_w3">Hobbyist Software Engineer</span>
               </div>
-              <span class="home_static_h2" id="static_h2"></span>
+              <span className="home_static_h2" id="static_h2"></span>
               <span id="location">Atlanta, Georgia 📍</span>
             </div>
-            <div className="home_col 2">
-              <div class="hero_img_container">
-                <img src={heroimg} alt="hero image" className="hero__img" />
+            <div className="home_col-2">
+              <div className="hero_img_container">
+                <img src={heroimg} alt="hero image" className="hero_img" />
               </div>
             </div>
           </div>
         </div>
         <div className="home_arrow">
-          {" "}
           <AnchorLink
             activeClass="active"
             to="about-anchor"
@@ -47,7 +45,7 @@ function Home() {
             offset={-100}
             duration={500}
           >
-            <img className="arrow" src={arrow} />
+            <img className="arrow" src={arrow} alt="Scroll Down" />
           </AnchorLink>
         </div>
       </div>
