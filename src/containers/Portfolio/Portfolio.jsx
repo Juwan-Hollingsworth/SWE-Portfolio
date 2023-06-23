@@ -19,7 +19,8 @@ function Portfolio() {
     <span class="material-symbols-outlined">arrow_forward_ios</span>
   );
 
-  const [projects, updateProject] = useState([
+  // needs to be moved into seperate file named ProjData
+  const projects = [
     {
       id: 1,
       title: "CRUD Login",
@@ -33,7 +34,7 @@ function Portfolio() {
       id: 2,
       title: "Agency UX Design",
       description: "Descr",
-      skills: ["HTML", "CSS", "JavaScript", "React", "Next.js"],
+      skills: ["ZTML", "CSS", "JavaScript", "React", "Next.js"],
       projectPic: spark,
       projectGIF: "https://rb.gy/9jh39",
       projectlink: "https://rb.gy/9jh39",
@@ -42,7 +43,7 @@ function Portfolio() {
       id: 3,
       title: "Responsive GPT3 Site",
       description: "Descr",
-      skills: ["HTML", "CSS", "JavaScript", "React", "Next.js"],
+      skills: ["KTML", "CSS", "JavaScript", "React", "Next.js"],
       projectPic: gpt3,
       projectGIF: "https://rb.gy/9jh39",
       projectLink: "https://rb.gy/9jh39",
@@ -65,7 +66,7 @@ function Portfolio() {
       projectGIF: "https://rb.gy/9jh39",
       projectLink: "https://rb.gy/9jh39",
     },
-  ]);
+  ];
   return (
     <div className="portfolio_main">
       <h2 className="portfolio_title">02. Recent projects 👾 </h2>
