@@ -41,7 +41,7 @@
   padding: 15px;
 }
 
-.open_link,
+.open_details,
 .gh_link button {
   background-color: transparent;
   border: 2px solid #ffffff;
@@ -52,7 +52,7 @@
   transition: background-color 0.3s ease;
 }
 
-.open_link:hover,
+.open_details:hover,
 .gh_link button:hover {
   background-color: #ffffff;
   color: #152238;

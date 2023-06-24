@@ -19,7 +19,7 @@ function Card({
       <img className="projectPic" src={projectPic} alt={`Project ${id}`} />
       <div className="project_info"></div>
       <div className="card_btns">
-        <button className="open_link" onClick={() => handleOpenModal(id)}>
+        <button className="open_details" onClick={() => handleOpenModal(id)}>
           Open Project Details
         </button>
         <div className="gh_link">

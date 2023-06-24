@@ -22,7 +22,8 @@ function Portfolio() {
     {
       id: 1,
       title: "CRUD Login",
-      description: "Descr",
+      description:
+        "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
       skills: ["HTML", "CSS", "JavaScript", "React", "Next.js"],
       projectPic: login,
       projectGIF: "https://rb.gy/9jh39",

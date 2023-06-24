@@ -17,7 +17,7 @@ function Modal({
         <img className="modal_img" src={projectPic} alt="proj pic" />
         <div className="modal_body">
           <div className="modal_title">{title}</div>
-          <div className="modal_description">{description}</div>
+
           <div className="modal_skills">
             <ul>
               {skills.map((skill) => (
@@ -25,10 +25,12 @@ function Modal({
               ))}
             </ul>
           </div>
+          <div className="modal_description">{description}</div>
         </div>
         <button className="close_btn" onClick={handleClose}>
           Close
         </button>
+        <button className="open_link">Open Project Link</button>
       </div>
     </div>
   );
