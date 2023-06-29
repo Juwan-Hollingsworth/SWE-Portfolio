@@ -145,15 +145,66 @@
 @media only screen and (min-width: 1200px) {
 }
 
-.column_1 {
-  width: 300px;
+.about_row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  margin-top: 30px;
+  margin-bottom: 0;
+  padding: 0 50px;
+  /* padding: 50px; */
 }
+
+.about_row_2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  margin-top: 30px;
+  margin-bottom: 0;
+  padding: 0 50px;
+}
+.column_1 {
+  color: white;
+  border: 3px solid white;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 10px 50px;
+  display: flex; /* Add flex display */
+  flex-direction: column; /* Stack the items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+}
+
 .column_2 {
-  width: 300px;
+  color: white;
+  border: 3px solid white;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 10px 50px;
+  display: flex; /* Add flex display */
+  flex-direction: column; /* Stack the items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
 }
 .column_3 {
-  width: 300px;
+  color: white;
+  border: 3px solid white;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 10px 50px;
+  display: flex; /* Add flex display */
+  flex-direction: column; /* Stack the items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
 }
 .column_4 {
-  width: 300px;
+  color: white;
+  border: 3px solid white;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 10px 50px;
+  display: flex; /* Add flex display */
+  flex-direction: column; /* Stack the items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
 }

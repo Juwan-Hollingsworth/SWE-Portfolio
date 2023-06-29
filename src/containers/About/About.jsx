@@ -44,9 +44,7 @@ function About() {
               coding skills. While studying biology and computer science at
               Clayton State University, I've been fortunate enough to work with
               some big names in Atlanta such as COX Automotive, MailChimp, and
-              Spark Social. These days, my primary focus is on creating digital
-              experiences and products that are accessible and inclusive for a
-              wide range of clients.
+              Spark Social.
               <br />
               <br />
             </p>
@@ -55,33 +53,15 @@ function About() {
       </div>
       <div class="about_row_2">
         <div class="column_3">
-          <Carousel showThumbs={false}>
-            <div>
-              <img src={image3} alt="Image 2" />
-              <p className="legend">
-                ACM Magic Mirror Project Showcased In ACM MSE Conference
-                (Gatlinburg, TN)
-              </p>
-            </div>
-            <div>
-              <img src={image2} alt="Image 2" />
-              <p className="legend">Hosting The 2nd Annual CIMS Symposium</p>
-            </div>
-
-            <div>
-              <img src={image1} alt="Image 1" />
-              <p className="legend">
-                {" "}
-                Mailchimp Launchpad: Technology Apprenticeship
-              </p>
-            </div>
-
-            {/* Add more images as needed */}
-          </Carousel>
-        </div>
-        <div class="column_4">
           {" "}
+          These days, my primary focus is on creating digital experiences and
+          products that are accessible and inclusive for a wide range of
+          clients.
+          <br />
+          <br />
           Here are a few technologies I've been working with recently:
+          <br />
+          <br />
           <div className="about_technologies">
             <ul className="about_list">
               <li className="about_item">Javascript</li>
@@ -99,10 +79,7 @@ function About() {
             I'd love to connect and see how we can work together!
           </p>
         </div>
-      </div>
-      <div className="about_row">
-        <div className="about_col 2"></div>
-        <div className="about_col 3">
+        <div class="column_4">
           <Carousel showThumbs={false}>
             <div>
               <img src={image3} alt="Image 2" />
@@ -128,6 +105,7 @@ function About() {
           </Carousel>
         </div>
       </div>
+
       <div className="ctaBtn_container">
         {" "}
         <button id="cta_btn">Get In Touch 📩</button>
