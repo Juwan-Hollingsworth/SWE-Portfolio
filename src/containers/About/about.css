@@ -144,3 +144,16 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 }
+
+.column_1 {
+  width: 300px;
+}
+.column_2 {
+  width: 300px;
+}
+.column_3 {
+  width: 300px;
+}
+.column_4 {
+  width: 300px;
+}

@@ -17,8 +17,8 @@ function About() {
   return (
     <div className="about_main">
       <h2 className="about_title">01. Get to know the dev 👋🏾,</h2>
-      <div className="about_row">
-        <div className="about_col 1">
+      <div class="about_row">
+        <div class="column_1">
           <div className="profile_col">
             <img className="about_headshot" id="about-anchor" src={headshot} />
             <div className="about_name">
@@ -31,7 +31,7 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="about_col 2">
+        <div class="column_2">
           <div className="about_statement">
             <p>
               Hi there, nice to meet you! I'm Juwan, a software engineer and
@@ -49,26 +49,59 @@ function About() {
               wide range of clients.
               <br />
               <br />
-              Here are a few technologies I've been working with recently:
-            </p>
-            <div className="about_technologies">
-              <ul className="about_list">
-                <li className="about_item">Javascript</li>
-                <li className="about_item">Node</li>
-                <li className="about_item">React</li>
-              </ul>
-              <ul className="about_list">
-                <li className="about_item">MongoDB</li>
-                <li className="about_item">Wordpress</li>
-                <li className="about_item">Python</li>
-              </ul>
-            </div>
-            <p>
-              If you're looking for a dedicated and innovative software
-              engineer, I'd love to connect and see how we can work together!
             </p>
           </div>
         </div>
+      </div>
+      <div class="about_row_2">
+        <div class="column_3">
+          <Carousel showThumbs={false}>
+            <div>
+              <img src={image3} alt="Image 2" />
+              <p className="legend">
+                ACM Magic Mirror Project Showcased In ACM MSE Conference
+                (Gatlinburg, TN)
+              </p>
+            </div>
+            <div>
+              <img src={image2} alt="Image 2" />
+              <p className="legend">Hosting The 2nd Annual CIMS Symposium</p>
+            </div>
+
+            <div>
+              <img src={image1} alt="Image 1" />
+              <p className="legend">
+                {" "}
+                Mailchimp Launchpad: Technology Apprenticeship
+              </p>
+            </div>
+
+            {/* Add more images as needed */}
+          </Carousel>
+        </div>
+        <div class="column_4">
+          {" "}
+          Here are a few technologies I've been working with recently:
+          <div className="about_technologies">
+            <ul className="about_list">
+              <li className="about_item">Javascript</li>
+              <li className="about_item">Node</li>
+              <li className="about_item">React</li>
+            </ul>
+            <ul className="about_list">
+              <li className="about_item">MongoDB</li>
+              <li className="about_item">Wordpress</li>
+              <li className="about_item">Python</li>
+            </ul>
+          </div>
+          <p>
+            If you're looking for a dedicated and innovative software engineer,
+            I'd love to connect and see how we can work together!
+          </p>
+        </div>
+      </div>
+      <div className="about_row">
+        <div className="about_col 2"></div>
         <div className="about_col 3">
           <Carousel showThumbs={false}>
             <div>
