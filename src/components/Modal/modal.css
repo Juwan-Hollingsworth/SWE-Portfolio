@@ -19,17 +19,19 @@
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
   max-width: 800px; /* Adjust the max-width value to your preference */
-  width: 90%; /* Adjust the width value to your preference */
+  width: 1250px; /* Adjust the width value to your preference */
 }
 
 .modal_img {
-  max-width: 480px;
-  max-height: 480px;
+  /* max-width: 480px;
+  max-height: 480px; */
+  /* height: 100px; */
+  width: 350px;
 
   object-fit: contain;
   border-radius: 8px;
-  max-width: 100%; /* Allow the image to resize within the modal */
-  height: auto; /* Maintain the aspect ratio of the image */
+  /* max-width: 100%; Allow the image to resize within the modal */
+  /* height: auto; Maintain the aspect ratio of the image */
   margin: 0;
 }
 
