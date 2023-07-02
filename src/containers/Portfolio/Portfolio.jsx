@@ -8,6 +8,9 @@ import arrow from "../../assets/arrow.png";
 import Card from "../../components/Card/Card.jsx";
 import Modal from "../../components/Modal/Modal";
 import { Carousel } from "@trendyol-js/react-carousel";
+import cloth from "../../assets/cloth.png";
+import metrix from "../../assets/metrix.png";
+import bank from "../../assets/hsfinancial.png";
 
 function Portfolio() {
   const leftArrow = (
@@ -21,11 +24,11 @@ function Portfolio() {
   const projects = [
     {
       id: 1,
-      title: "CRUD Login",
+      title: "CRUD Email Submission",
       description:
         "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
       skills: ["HTML", "CSS", "JavaScript", "React", "Next.js"],
-      projectPic: login,
+      projectPic: cloth,
       projectGIF: "https://rb.gy/9jh39",
       projectLink: "https://rb.gy/9jh39",
     },
@@ -52,7 +55,7 @@ function Portfolio() {
       title: "Banking Application",
       description: "Descr",
       skills: ["HTML", "CSS", "JavaScript", "React", "Next.js"],
-      projectPic: login,
+      projectPic: bank,
       projectGIF: "https://rb.gy/9jh39",
       projectLink: "https://rb.gy/9jh39",
     },
@@ -61,7 +64,7 @@ function Portfolio() {
       title: "Social Media Metrics App",
       description: "Descr",
       skills: ["HTML", "CSS", "JavaScript", "React", "Next.js"],
-      projectPic: spark,
+      projectPic: metrix,
       projectGIF: "https://rb.gy/9jh39",
       projectLink: "https://rb.gy/9jh39",
     },
